@@ -7,6 +7,7 @@ public enum ProductCategoryStateEnum {
 	INNER_ERROR(-1001,"操作失败"),
 	//为空时返回
 	EMPTY_LIST(-1002,"添加数少于1");
+	
 	private int state;
 	private String stateInfo;
 	private ProductCategoryStateEnum(int state, String stateInfo) {
